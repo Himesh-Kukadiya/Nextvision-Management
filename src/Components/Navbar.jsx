@@ -14,7 +14,7 @@ const Navbar = () => {
                         <ul className="navbar-nav ms-auto">
                             {
                                 menuList.map(menu => (
-                                    <li className="nav-item">
+                                    <li key={menu.name} className="nav-item">
                                     <a className={menu.class} aria-current="page" href={menu.link}>{menu.name}</a>
                                 </li>
                                 ))

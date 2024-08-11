@@ -39,8 +39,54 @@ const aboutData = {
     img2: about2,
 }
 
+const servicesList = [
+    {
+        id: "services1",
+        iconClass: "bi bi-briefcase-fill",
+        title: "Employment and Staffing Services",
+        description: "Providing top talent and employment solutions tailored to your business needs."
+    },
+    {
+        id: "services2",
+        iconClass: "bi bi-person-badge-fill",
+        title: "Workforce Development and Training",
+        description: "Developing your workforce with cutting-edge training and skill-building programs."
+    },
+    {
+        id: "services3",
+        iconClass: "bi bi-gear-fill",
+        title: "Business Management and Consulting",
+        description: "Expert consulting services to manage and grow your business effectively."
+    },
+    {
+        id: "services4",
+        iconClass: "bi bi-person-lines-fill",
+        title: "HR Solutions and Support",
+        description: "Comprehensive HR solutions to manage your workforce and support your business."
+    },
+    {
+        id: "services5",
+        iconClass: "bi bi-cash-stack",
+        title: "Payroll and Benefits Administration",
+        description: "Efficient payroll processing and benefits administration tailored to your needs."
+    },
+    {
+        id: "services6",
+        iconClass: "bi bi-bar-chart-line-fill",
+        title: "Operational Efficiency Consulting",
+        description: "Optimizing your business operations for maximum efficiency and performance."
+    },
+    {
+        id: "services7",
+        iconClass: "bi bi-puzzle-fill",
+        title: "Customized Business Solutions",
+        description: "Tailored business solutions to meet the unique challenges of your organization."
+    }
+];
+
 export {
     menuList,
     homeData,
     aboutData,
+    servicesList,
 }
