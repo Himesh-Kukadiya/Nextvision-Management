@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+    background-color: #1e2e3f; 
+    color: #e0e0e0; 
+    scroll-behavior: smooth;
+}
+
+/* Header Section */
+.navbar {
+    background-color: #1e1e2f; 
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    padding-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fff; 
+}
