@@ -11,7 +11,7 @@ const HIW = () => {
                     </div>
                     <div className="row">
                         {
-                            hiwList.mpa(hiw => (
+                            hiwList.map(hiw => (
                                 <div key={hiw.id} className="col-md-4 mb-4">
                                     <div className="step p-4 text-center">
                                         <div className="step-icon mb-3">
