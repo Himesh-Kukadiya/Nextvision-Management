@@ -83,3 +83,28 @@ body, html {
         transform: translateY(0); 
     }
 }
+
+/* About Section */
+.about {
+    background-color: #2e2e3f;
+    color: #ffffff;
+}
+
+.about-img {
+    width: 90%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.about-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
