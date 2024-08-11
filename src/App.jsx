@@ -4,6 +4,7 @@ import './App.css'
 import Home from './Components/Home'
 import About from './Components/About'
 import Services from './Components/Services'
+import HIW from './Components/HIW'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <About />
       <Services />
+      <HIW />
     </>
   )
 }
