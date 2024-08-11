@@ -84,9 +84,31 @@ const servicesList = [
     }
 ];
 
+const hiwList = [
+    {
+        id: "hiw1",
+        icon: "bi bi-chat-left-text-fill",
+        title: "1. Consultation",
+        description: "We begin with an in-depth consultation to understand your needs and goals."
+    },
+    {
+        id: "hiw2",
+        icon: "bi bi-gear-fill",
+        title: "2. Customized Solutions",
+        description: "Our team develops tailored solutions that align with your business objectives."
+    },
+    {
+        id: "hiw3",
+        icon: "bi bi-check-circle-fill",
+        title: "3. Implementation",
+        description: "We work alongside you to implement the solutions and ensure a smooth transition."
+    }
+];
+
 export {
     menuList,
     homeData,
     aboutData,
     servicesList,
+    hiwList,
 }
