@@ -22,7 +22,14 @@ const menuList = [
     },
 ]
 
+const homeData = {
+    title: "Empowering Businesses, Elevating Careers",
+    desc: "Your Trusted Partner in Employment and Business Management Solutions"
+}
+
+
 export {
     menuList,
+    homeData,
 
 }
