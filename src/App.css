@@ -288,3 +288,63 @@ body, html {
     background-color: #ffffff;
     color: #2e2e3f;
 }
+
+/* Contact Section */
+.contact {
+    background-color: #1e1e2f;
+    color: #e0e0e0;
+    padding: 50px 0; 
+}
+
+.contact-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 30px; 
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-desc {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 8px;
+    background-color: #2e2e3f;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.form-control::placeholder {
+    color: #e0e0e0;
+}
+
+.form-control:focus {
+    background-color: #2e2e3f;
+    color: #ffffff;
+    outline: none;
+    box-shadow: none;
+}
+
+.contact .btn-primary {
+    background-color: #2e2e3f;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact .btn-primary:hover {
+    background-color: #3e3e4f;
+}
+
+.contact .row {
+    display: flex;
+    align-items: center;
+}

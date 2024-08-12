@@ -7,6 +7,7 @@ import Services from './Components/Services'
 import HIW from './Components/HIW'
 import SuccessStory from './Components/SuccessStory'
 import CTA from './Components/CTA'
+import Contact from './Components/Contact'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <SuccessStory />
       <HIW />
       <CTA />
+      <Contact />
     </>
   )
 }
