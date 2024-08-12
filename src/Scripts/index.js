@@ -105,10 +105,31 @@ const hiwList = [
     }
 ];
 
+const successStoriesList = [
+    {
+        icon: "bi bi-award-fill",
+        title: "Company A's Transformation",
+        description: "With our business consulting services, Company A increased their efficiency by 40% and expanded their market reach."
+    },
+    {
+        icon: "bi bi-trophy-fill",
+        title: "Growth for Company B",
+        description: "Our tailored HR solutions helped Company B scale their operations and double their workforce in just one year."
+    },
+    {
+        icon: "bi bi-graph-up-arrow",
+        title: "Success for Company C",
+        description: "Company C leveraged our training programs to upskill their team, leading to a 50% increase in productivity."
+    }
+];
+
+
 export {
     menuList,
     homeData,
     aboutData,
     servicesList,
     hiwList,
+    successStoriesList,
+    
 }

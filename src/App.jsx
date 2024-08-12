@@ -5,6 +5,7 @@ import Home from './Components/Home'
 import About from './Components/About'
 import Services from './Components/Services'
 import HIW from './Components/HIW'
+import SuccessStory from './Components/SuccessStory'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Home />
       <About />
       <Services />
+      <SuccessStory />
       <HIW />
     </>
   )

@@ -188,3 +188,72 @@ body, html {
     color: #e0e0e0;
 }
 
+/* Success Stories Section */
+.success-stories {
+    background-color: #2e2e3f;
+    color: #e0e0e0;
+}
+
+.story-card {
+    background-color: #1e1e2f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.story-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.story-icon {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.story-title {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.story-description {
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+/* How It Works Section */
+.hiw {
+    background-color: #1e1e2f;
+    color: #e0e0e0;
+}
+
+.step {
+    background-color: #2e2e3f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+}
+
+.step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.step-icon {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.st-title {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.st-desc {
+    font-size: 1rem;
+    color: #e0e0e0;
+}
