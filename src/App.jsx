@@ -8,6 +8,7 @@ import HIW from './Components/HIW'
 import SuccessStory from './Components/SuccessStory'
 import CTA from './Components/CTA'
 import Contact from './Components/Contact'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <HIW />
       <CTA />
       <Contact />
+      <Footer />
     </>
   )
 }
